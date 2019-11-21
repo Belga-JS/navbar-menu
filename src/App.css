@@ -1,0 +1,44 @@
+.Nav-bar{
+  width: 95%;
+  border: 1px solid blue ;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px 10px ;
+  
+}
+
+.app-Nav{
+  width:40%;
+  color:black;
+  display:flex;
+  justify-content: space-around;
+  text-decoration: none;
+  
+}
+.main-Nav{
+  display: none;
+}
+li.item-nav2:hover .main-Nav{
+  display:block;
+  position:absolute;
+  padding-top: 25px;
+} 
+li.Navdown{
+  padding:10px 0;
+}
+
+li a {
+  text-decoration: none;
+  color:black;
+}
+ul.drop-menu{
+  list-style: none;
+  border: 1px solid rgb(14, 26, 202);
+  padding: 0 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin:10px;
+}
+li a:hover{
+color:blue;
+}
